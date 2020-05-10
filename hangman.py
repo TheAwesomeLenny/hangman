@@ -142,4 +142,8 @@ while keepplaying:
             print(dashedSentence)
     if not winstuff:
         print("Congratulations! You won!!!!!!!!")            
-    keepPlaying = input("Do you want to keep playing? 'True' or 'False' ")
+    hello = input('Do you want to keep playing? (T/F)')
+    if hello == 'T':
+        keepplaying = True
+    else:
+        keepplaying = False
