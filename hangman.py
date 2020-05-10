@@ -118,7 +118,7 @@ while keepplaying:
             count=0
             for j in rsentence:
                 if j.lower() == letter:
-                    ljitsu = list(jitsu)4
+                    ljitsu = list(jitsu)
                     ljitsu.append(count)
                     jitsu = tuple(ljitsu)
                 count +=1
