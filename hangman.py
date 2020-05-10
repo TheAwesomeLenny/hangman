@@ -3,7 +3,7 @@ import re
 keepplaying = True
 while keepplaying:
     rsentence = getpass.getpass("What would you like the sentence to be? ")
-    re.sub(r'[^a-zA-Z ]', '', rsentence)
+    rsentence = re.sub(r'[^a-zA-Z ]', '', rsentence)
     difficulty = input("Would you like to make hangman 'easy' or 'hard'? ")
     alphabet = list("abcdefghijklmnopqrstuvwxyz")
     wait = input(" ")
